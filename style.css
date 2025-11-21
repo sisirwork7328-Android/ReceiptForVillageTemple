@@ -1,0 +1,77 @@
+body {
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+    margin: 0;
+    background: linear-gradient(135deg, #232526 0%, #1a2980 100%);
+    min-height: 100vh;
+    color: #f5f5f5;
+}
+.form-box {
+    width: 400px;
+    margin: 30px auto 0 auto;
+    background: rgba(76, 120, 135, 0.98); /* Electric Blue, slightly translucent */
+    border-radius: 22px;
+    box-shadow: 0 8px 32px 0 rgba(55,85,162,0.35);
+    padding: 38px 32px;
+    position: relative;
+}
+.form-box h2 {
+    color: #ff6969; /* Neon Pink */
+    text-shadow: 2px 4px 8px #21212180;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.form-box label {
+    font-size: 18px;
+    color: #fff;
+    margin-top: 12px;
+    display: block;
+    font-weight: 600;
+}
+.form-box input {
+    width: 88%;
+    padding: 10px 14px;
+    margin-bottom: 18px;
+    background: #00000020;
+    outline: none;
+    border: 2px solid #1a2980;
+    border-radius: 12px;
+    color: #ffffff;
+    font-size: 18px;
+    transition: border-color 0.3s;
+}
+.form-box input:focus {
+    border-color: #FFD700;  /* Cyber Yellow */
+}
+.form-box button {
+    background: linear-gradient(90deg, #FF69B4 10%, #FFD700 80%);
+    color: #232526;
+    font-size: 18px;
+    border: none;
+    border-radius: 12px;
+    margin: 14px 6px 0 0;
+    padding: 12px 24px;
+    cursor: pointer;
+    box-shadow: 0 2px 18px #ffd70055;
+    transition: transform 0.18s, box-shadow 0.18s;
+}
+.form-box button:hover {
+    transform: translateY(-3px) scale(1.04);
+    box-shadow: 0 4px 28px #ff69b455;
+}
+
+.field {
+    position: absolute;
+    font-size: 60px;
+    font-weight: bold;
+    color: #F2F2F2;
+    text-shadow: 2px 2px 8px #36454Fcc, 0 0 2px #FF69B4bb;
+}
+#amountField {
+    color: #FF1493;
+    font-size: 70px;
+    
+}
+#receiverField {
+    color: #ffffff;
+    
+}
